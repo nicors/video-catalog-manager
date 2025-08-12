@@ -1,0 +1,18 @@
+{
+    "name": "nicolasserrato/video-catalog-manager",
+    "description": "PHP video catalog",
+    "authors": [
+        {
+            "name": "Nicolas Serrato"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Core\\": "src/Core/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "mockery/mockery": "^1.6"
+    }
+}
